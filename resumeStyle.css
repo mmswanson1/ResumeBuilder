@@ -1,0 +1,52 @@
+.nameBanner {
+    padding:20px;
+    text-align:center;
+    background:#cececf;
+    font-size:30px;
+    color:#2d2d2e;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:77px;
+    display: block;
+}
+
+body {
+    color:#2d2d23;
+    font-size:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+#personalInfo {
+    text-align: center;
+}
+
+.sectionBanner {
+    text-indent: 10px;
+    text-align:left;
+    background:#cececf;
+    font-size:23px;
+    text-transform: uppercase;
+    height:25px;
+    display: block;
+    text-emphasis: bold;
+}
+
+.technicalSkills {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.twoColumns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reference {
+    width: 50%;
+    margin-left: 10px;
+}

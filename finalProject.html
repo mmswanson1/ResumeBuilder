@@ -1,0 +1,268 @@
+<!--
+    Author: Meagan Swanson
+    Date: 11/18/2020
+    Class: WEB-115.0003
+    Assignment: Final Project
+-->
+
+<!DOCTYPE html>
+
+<head>
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="projectJS.js"></script>
+
+    <div class="banner" id="topBanner">
+
+        <h1 id="buildResume">BUILD YOUR RESUME</h1>
+        <p id="studentName">Meagan Swanson</p>
+        <p id="class">web-115 section .0003</p>
+      </div>
+
+      <form id="resume" name="resume">
+        <h2>Personal Information</h2>
+        <div id="dataEntryArea">
+        <p>
+            <label for="userName">Full Name:</label></br>
+            <input type="text" id="userName" name="userName" />
+        </p>
+        <p>
+            <label for="=userCity">City:</label></br>
+            <input type="text" id="userCity" name="userCity" />
+        </p>
+        <p>
+            <label for="userState">State:</label></br>
+            <input type="text" id="userState" name="userState" />
+        </p>
+        <p>
+            <label for="userZip">Zip Code:</label></br>
+            <input type="text" id="userZip" name="userZip" />
+        </p>
+        <p>
+            <label for="userPhone">Phone Number:</label></br>
+            <input type="text" id="userPhone" name="userPhone" placeholder="(___) ___-____" />
+        </p>
+        <p>
+            <label for="userEmail">Email:</label></br>
+            <input type="text" id="userEmail" name="userEmail" />
+            <i style="color:red">*required</i>
+        </p>
+        <p>
+            <label for="linkedin">LinkedIn:</label></br>
+            <input type="text" id="linkedin" name="linkedin" />
+        </p>
+        <p>
+            <label for="portfolio">Portfolio:</label></br>
+            <input type="text" id="portfolio" name="portfolio" />
+        </p>
+        </div>
+      <h2>Skill Set Information</h2>
+        <div id="dataEntryArea"> 
+        <p>
+            <label for="codeSkills">Coding Skills</label></br>
+            <textarea rows="8" cols="100" id="codeSkills" name="codeSkills" placeholder="press the enter key after each entry"></textarea>
+        </p>
+        <p>
+            <label for="workEthic">Work Ethic</label></br>
+            <textarea rows="8" cols="100" id="workEthic" name="workEthic" placeholder="press the enter key after each entry"></textarea>
+        </p>
+        <p>
+            <label for="writingSkills">Writing Skills</label></br>
+            <textarea rows="8" cols="100" id="writingSkills" name="writingSkills" placeholder="press the enter key after each entry"></textarea>
+        </p>
+        </div>
+
+      <h2>Technical Skills</h2>
+        <div id="dataEntryArea">
+        <p>
+            <label for="webTools">Web Tools</label></br>
+            <textarea rows="8" cols="100" id="webTools" name="webTools"></textarea>
+        </p>
+        <p>
+            <label for="adobeTools">Adobe Creative Cloud</label></br>
+            <textarea rows="8" cols="100" id="adobeTools" name="adobeTools"></textarea> 
+        </p>
+        </div>
+    <h2>Educational Background</h2>
+    <div id="dataEntryArea">
+    <p><i>Enter your highest level of education</p></i>
+    <h4>School Information</h4>
+    <p>
+        <label for="universityName">School Name:</label></br>
+        <input type="text" id="universityName" name="universityName"/>
+    </p>
+    <p>
+        <label for="universityCity">City:</label></br>
+        <input type="text" id="universityCity" name="universityCity"/></br>
+    </p>
+    <p>
+        <label for="universityState">State:</label></br>
+        <input type="text" id="universityState" name="universityState"/></br>
+    </p>
+    <h4>Degree Information</h4>
+    <p>
+        <label for="degree">Degree:</label></br>
+        <input type="text" id="degree" name="degree"/>
+    </p>
+    <p>
+        <label for="studyField">Field of Study:</label></br>
+        <input type="text" id="studyField" name="studyField"/>
+    </p>
+    <p>
+        <label for="gradMonth">Completion Month:</label></br>
+        <input type="text" id="gradMonth" name="gradMonth"/></br>
+    </p>
+    <p>
+        <label for="gradYear">Completion Year:</label></br>
+        <input type="text" id="gradYear" name="gradYear"/></br>
+    </p>
+    <p>
+        <h4><label for="courses">Courses</label></h4>
+        <textarea rows="8" cols="100" id="courses" name="courses" placeholder="press the enter key after each course"></textarea></br>
+    </p>
+    </div>
+    <h2>Employment History</h2>
+    <div id="dataEntryArea">
+    <p><i>Enter your most recent employment experience</p></i>
+    <h4>Employment #1</h4>
+    <p>
+        <label for="employerName1">Employer:</label></br>
+        <input type="text" id="employerName1" name="employerName1"/>
+    </p>
+    <p>
+        <label for="employerCity1">City:</label></br>
+        <input type="text" id="employerCity1" name="employerCity1"/></br>
+    </p>
+    <p>
+        <label for="employerState1"></label>State:</br>
+        <input type="text" id="employerState1" name="employerState1"/></br>
+    </p>
+    <p>
+        <label for="jobTitle1">Job Title:</label></br>
+        <input type="text" for="jobTitle1" name="jobTitle1"/></br>
+    </p>
+    <p>
+        <label for="startDate1">Start Dates:</label></br>
+        <input type="date" id="startDate1" name="startDate1"/>
+    </p>
+    <p>
+        <label for="endDate1">End Date:</label></br>
+        <input type="date" id="endDate1" name="endDate1"/></br>
+    </p>
+    <p>
+        <label for="jobDescription1">Brief Job Description</br>
+        <textarea rows="8" cols="100" id="jobDescription1" name="jobDescription1"></textarea></br>
+    </p>
+    <p>
+        <label for="jobDuties1">Job Duties</label></br>
+        <textarea rows="8" cols="100" id="jobDuties1" name="jobDuties1" placeholder="press the enter key after each duty"></textarea></br>
+    </p>
+    <i>If applicable, please enter additonal employment experiences</i></br>
+    <h4>Employment #2</h4> 
+    <p>
+        <label for="employerName2">Employer:</label></br>
+        <input type="text" id="employerName2" name="employerName2"/>
+    </p>
+    <p>
+        <label for="employerCity2">City:</label></br>
+        <input type="text" id="employerCity2" name="employerCity2"/></br>
+    </p>
+    <p>
+        <label for="employerState2">State:</label></br>
+        <input type="text" id="employerState2" name="employerState2"/></br>
+    </p>
+    <p>
+        <label for="jobTitle2">Job Title:</label></br>
+        <input type="text" id="jobTitle2" name="jobTitle2"/></br>
+    </p>
+    <p>
+        <label for="startDate2">Start Dates:</label></br>
+        <input type="date" id="startDate2" name="startDate2"/>
+    </p>
+    <p>
+        <label for="endDate2">End Date:</label></br>
+        <input type="date" id="endDate2" name="endDate2"/>
+    </p>
+    <p>
+        <label for="jobDescription2">Brief Job Description</label></br>
+        <textarea rows="8" cols="100" id="jobDescription2" name="jobDescription2"></textarea></br>
+    </p>
+    <p>
+        <label for="jobDuties2">Job Duties</label></br>
+        <textarea rows="8" cols="100" id="jobDuties2" name="jobDuties2" placeholder="press the enter key after each duty"></textarea></br>
+    </p>
+    <h4>Employment #3</h4> 
+    <p>
+        <label for="employerName3">Employer:</label></br>
+        <input type="text" id="employerName3" name="employerName3"/>
+    </p>
+    <p>
+        <label for="employerCity3">City:</label></br>
+        <input type="text" id="employerCity3" name="employerCity3"/></br>
+    </p>
+    <p>
+        <label for="employerState3">State:</label></br>
+        <input type="text" id="employerState3" name="employerState3"/></br>
+    </p>
+    <p>
+        <label for="jobTitle3">Job Title:</label></br>
+        <input type="text" id="jobTitle3" name="jobTitle3"/></br>
+    </p>
+    <p>
+        <label for="startDate3">Start Dates:</label></br>
+        <input type="date" id="startDate3" name="startDate3"/>
+    </p>
+    <p>
+        <label for="endDate3">End Date:</label></br>
+        <input type="date" id="endDate3" name="endDate3"/>
+    </p>
+    <p>
+        <label for="jobDescription3">Brief Job Description</label></br>
+        <textarea rows="8" cols="100" id="jobDescription3" name="jobDescription3"></textarea></br>
+    </p>
+    <p>
+        <label for="jobDuties3">Job Duties</label></br>
+        <textarea rows="8" cols="100" id="jobDuties3" name="jobDuties3" placeholder="press the enter key after each duty"></textarea></br>
+    </p>
+    </div>
+
+    <h2>References</h2>
+    <div id="dataEntryArea">
+    <h4>Reference #1</h4>
+    <p>
+        <label for="referenceName1">Full Name:</label></br>
+        <input type="text" id="referenceName1" name="referenceName1"/></p>
+    <p>
+        <label for="referencePhone1">Phone number:</label></br>
+        <input type="text" id="referencePhone1" name="referencePhone1" placeholder="(___) ___-____"/></p>
+    <p>
+        <label for="referenceEmail1">Email:</label></br>
+        <input type="text" id="referenceEmail1" name="referenceEmail1"/></p>
+    <h4>Reference #2</h4>
+    <p>
+        <label for="referenceName2">Full Name:</label></br>
+        <input type="text" id="referenceName2" name="referenceName2"/></p>
+    <p>
+        <label for="referencePhone2">Phone number:</br>
+        <input type="text" id="referencePhone2" name="referencePhone2" placeholder="(___) ___-____"/></p>
+    <p>
+        <label for="referenceEmail2">Email:</label></br>
+        <input type="text" id="referenceEmail2" name="referenceEmail2"/></p>
+   <h4>Reference #3</h4>
+    <p>
+        <label for="referenceName3">Full Name:</label></br>
+        <input type="text" id="referenceName3" name="referenceName3"/></p>
+    <p>
+        <label for="referencePhone3">Phone number:</label></br>
+        <input type="text" id="referencePhone3" name="referencePhone3" placeholder="(___) ___-____"/></p>
+    <p>
+        <label for="referenceEmail3">Email:</label></br>
+        <input type="text" id="referenceEmail3" name="referenceEmail3"/></p>
+    </div>
+    <input type="button" id="createResume" value="Create Resume" onclick="start()"/>
+</form>
+</body>
+</html>

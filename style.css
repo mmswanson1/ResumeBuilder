@@ -1,0 +1,80 @@
+#topBanner {
+    padding:20px;
+    text-align:center;
+    background:#0c3285;
+    color:white;
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    height:170px;
+    display: block; 
+    border-radius: 15px;
+    box-shadow: inset 0 0 7px 4px rgba(255,255,255,.5);
+}
+
+#buildResume {
+    letter-spacing:30px;
+    margin-block-start: auto;
+    margin-block-end: 20px;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 0 10px;
+}
+
+#studentName {
+    letter-spacing:15px;
+    margin-block-start: auto;
+    margin-block-end: 20px;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 0 10px;
+}
+
+#class {
+    letter-spacing:5px;
+    font-size:20px;
+    margin-block-start: auto;
+    margin-block-end: auto; 
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 0 10px;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing:2px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color: #0c3285;
+    font-size:45px;
+    text-transform: uppercase;
+    letter-spacing:13px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+h4 {
+    font-family:'Courier New', Courier, monospace;
+    color: #0c3285;
+    letter-spacing:5px;
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+#dataEntryArea {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+#createResume {
+    background-color: #0c3285;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:8px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    display: block; margin: auto;
+    border-radius: 15px;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 0 10px;
+    box-shadow: inset 0 0 7px 4px rgba(255,255,255,.5);
+}
